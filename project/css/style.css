@@ -4,6 +4,29 @@ html,body{
     
 }
 
+#topnavbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1DA1F2;
+}
+
+#topnavbar1 {
+  float: right;
+}
+
+#topnavbar1 #topnavbar2{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#topnavbar1 #topnavbar2:hover {
+  background-color: #111;
+}
 
 .homepage{
   background-color: white;
@@ -12,27 +35,6 @@ html,body{
   padding:0;
 }
 
-#desc-intro{
-  color:white;
-    font-weight: bold;
-    font-size: 54px;
-    position: relative;
-    top:70px;
-  
-}
-#desc{
-    font-size: 80px;
-    color:white;
-    position: relative;
-    top:70px;
-}
-
-#desc2{
-    font-size: 30px;
-    color:white;
-    position: relative;
-    top:70px;
-}
 
 a{
     display: inline-block;
@@ -968,4 +970,10 @@ h1{
 
 #topnav{
   background-color: #1DA1F2;
+}
+
+.download{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
