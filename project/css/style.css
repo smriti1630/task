@@ -94,8 +94,7 @@ p{
 
   background-image: url("../images/image-1.jpg");
   /* Set a specific height */
-  min-height: 100vh; 
-
+  min-height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -301,7 +300,58 @@ padding-right:15px;
   margin:50px;
 }
 
+/*our Department*/
 
+.ourdepartment{
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  margin:50px;
+}
+.ourdepartment2{
+  display:flex;
+  flex-direction: row;
+
+}
+
+/*statics css*/
+.sc{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1DA1F2;
+  color:white;
+  padding:150px;
+
+}
+.sca{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.scb{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  
+  }
+  .scc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    
+    }
+  
+.scd{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
   /*get-in-touch CSS*/
 
   #getintouch{
